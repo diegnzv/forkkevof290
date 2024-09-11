@@ -3,3 +3,13 @@
 *{
     family font: "reddit sans condensed"; sans-serif;
 }
+.encabezado {
+    width: 100vw;
+    height: 60vw;
+    display: flex;
+    background: url(../img/IMG_2138.jpg);
+    background-size: cover;
+    background-position: center center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%);
+    filter: grayscale(0.2);
+}
